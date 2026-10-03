@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://akucel.com/sitemap.xml
+Sitemap: https://akucel.github.io/sitemap.xml
