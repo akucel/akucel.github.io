@@ -141,7 +141,7 @@ a:hover { color: var(--ink); }
   height: auto;
   display: block;
   border-radius: 2px;
-  background: var(--paper);
+  background: var(--bg);
 }
 
 .role {
