@@ -104,6 +104,10 @@ h2 {
 
 h2:first-of-type { margin-top: 0; }
 
+/* a section heading straight after the page title needs its own air */
+h1 + h2,
+h1 + h2:first-of-type { margin-top: 1.9rem; }
+
 h3 {
   font-size: 1.0625rem;
   font-weight: 600;
