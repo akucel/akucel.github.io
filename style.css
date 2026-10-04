@@ -204,6 +204,26 @@ a:hover { color: var(--ink); }
 
 .pub-meta cite { font-style: italic; }
 
+/* work in progress: wider spine, status label in place of a year */
+
+.pubs.wip li { grid-template-columns: 7rem 1fr; }
+
+.pubs.wip .year {
+  font-size: 0.75rem;
+  letter-spacing: 0.02em;
+  text-transform: lowercase;
+  font-variant-numeric: normal;
+}
+
+.section-note {
+  font-family: Inter, system-ui, sans-serif;
+  font-size: 0.9375rem;
+  line-height: 1.55;
+  color: var(--muted);
+  max-width: var(--measure);
+  margin: 0 0 1.5rem;
+}
+
 /* ---------- teaching lists ---------- */
 
 .courses {
@@ -273,7 +293,8 @@ footer p { margin: 0; max-width: none; }
     grid-template-columns: 7rem 1fr;
     gap: 1.25rem;
   }
-  .pubs li { grid-template-columns: 1fr; gap: 0.35rem; }
+  .pubs li,
+  .pubs.wip li { grid-template-columns: 1fr; gap: 0.35rem; }
   .year { padding-top: 0; }
   main { padding: 2.5rem 0 3.5rem; }
   nav ul { gap: 1.1rem; }
