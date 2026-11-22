@@ -1,9 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 240" role="img" aria-label="Supply and demand curves crossing at the market equilibrium">
-<line x1="50" y1="200" x2="320" y2="200" stroke="#5b6661" stroke-width="1.5"/>
-<line x1="50" y1="200" x2="50" y2="30" stroke="#5b6661" stroke-width="1.5"/>
-<line x1="80" y1="50" x2="300" y2="180" stroke="#16211e" stroke-width="3" stroke-linecap="round"/>
-<line x1="80" y1="180" x2="300" y2="50" stroke="#8b1e1e" stroke-width="3" stroke-linecap="round"/>
-<line x1="190" y1="115" x2="190" y2="200" stroke="#b9bfb7" stroke-width="1.5" stroke-dasharray="4 4"/>
-<line x1="50" y1="115" x2="190" y2="115" stroke="#b9bfb7" stroke-width="1.5" stroke-dasharray="4 4"/>
-<circle cx="190" cy="115" r="7" fill="#16211e"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 240" role="img" aria-label="A balance scale weighing coins">
+<line x1="180" y1="62" x2="180" y2="200" stroke="#16211e" stroke-width="6" stroke-linecap="round"/>
+<line x1="120" y1="205" x2="240" y2="205" stroke="#16211e" stroke-width="8" stroke-linecap="round"/>
+<line x1="70" y1="78" x2="290" y2="62" stroke="#16211e" stroke-width="6" stroke-linecap="round"/>
+<circle cx="180" cy="70" r="11" fill="#8b1e1e"/>
+<path d="M70 78 L40 140 M70 78 L100 140" stroke="#5b6661" stroke-width="2.5" stroke-linecap="round"/>
+<path d="M290 62 L260 124 M290 62 L320 124" stroke="#5b6661" stroke-width="2.5" stroke-linecap="round"/>
+<path d="M30 140 H110 Q110 168 70 168 Q30 168 30 140 Z" fill="#16211e"/>
+<path d="M250 124 H330 Q330 152 290 152 Q250 152 250 124 Z" fill="#16211e"/>
+<circle cx="56" cy="124" r="13" fill="#8b1e1e"/><circle cx="84" cy="124" r="13" fill="#8b1e1e"/><circle cx="70" cy="101" r="13" fill="#8b1e1e"/>
+<circle cx="290" cy="108" r="13" fill="#8b1e1e"/>
 </svg>
