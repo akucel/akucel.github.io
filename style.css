@@ -359,3 +359,11 @@ footer p { margin: 0; max-width: none; }
   .card.featured { grid-template-columns: 1fr; gap: 1rem; }
   .card.featured img { max-width: 14rem; }
 }
+
+.card .card-fig {
+  width: 100%;
+  max-width: 9rem;
+  height: auto;
+  display: block;
+  margin: 0 0 0.9rem;
+}
