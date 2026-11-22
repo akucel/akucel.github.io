@@ -303,3 +303,59 @@ footer p { margin: 0; max-width: none; }
   main { padding: 2.5rem 0 3.5rem; }
   nav ul { gap: 1.1rem; }
 }
+
+/* ---------- teaching cards ---------- */
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  gap: 1rem;
+  margin: 0 0 1.5rem;
+  padding: 0;
+  list-style: none;
+}
+
+.card {
+  background: var(--paper);
+  border: 1px solid var(--rule);
+  border-radius: 2px;
+  padding: 1.25rem 1.35rem 1.35rem;
+}
+
+.card h3 {
+  font-size: 1.0625rem;
+  line-height: 1.35;
+  margin: 0 0 0.5rem;
+}
+
+.card p {
+  font-family: Inter, system-ui, sans-serif;
+  font-size: 0.9375rem;
+  line-height: 1.6;
+  color: var(--muted);
+  margin: 0;
+}
+
+.card.featured {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: 13rem 1fr;
+  gap: 1.75rem;
+  align-items: center;
+  border-top: 3px solid var(--accent);
+}
+
+.card.featured img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.card.featured p { margin-bottom: 1rem; }
+
+.card .download { margin-top: 0; }
+
+@media (max-width: 34rem) {
+  .card.featured { grid-template-columns: 1fr; gap: 1rem; }
+  .card.featured img { max-width: 14rem; }
+}
